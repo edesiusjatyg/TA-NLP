@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "structural_status": "passed",
+  "errors": [],
+  "semantic_human_review": "not_implied_by_structural_validation",
+  "source_sha256": "2d96ec6767f06f42a88669e48ab14974042cda5accbbcf3f81e08645dca84f4a",
+  "archived_pdf_pages": 98,
+  "knowledge_pages": 79,
+  "units_total": 455,
+  "active_units": 455,
+  "chunks_total": 128,
+  "units_by_topic": {
+    "BANJIR": 50,
+    "COVID": 28,
+    "ERUPSI": 35,
+    "GEMPA": 24,
+    "KARHUTLA": 19,
+    "KERING": 14,
+    "LONGSOR": 22,
+    "PUTING": 17,
+    "TSUNAMI": 35,
+    "UMUM": 211
+  },
+  "units_by_phase": {
+    "UMUM": 263,
+    "PRA": 82,
+    "SAAT": 59,
+    "PASCA": 51
+  },
+  "review_status_counts": {
+    "pending_group_review": 455
+  },
+  "quality_flag_counts": {
+    "DUBIOUS_SOURCE": 3,
+    "TIME_SENSITIVE": 94,
+    "SOURCE_AMBIGUOUS": 5,
+    "SOURCE_ATTRIBUTION_REQUIRED": 128,
+    "SOURCE_SENSITIVE": 1,
+    "HISTORICAL_HEALTH_GUIDANCE": 28,
+    "HISTORICAL_RECORD": 61,
+    "INCOMPLETE_SOURCE": 1,
+    "NO_ABSOLUTE_PROTECTION_CLAIM": 40
+  },
+  "duplicate_text_count": 1,
+  "duplicate_policy": "report_only_preserve_distinct_pages_and_contexts",
+  "oversized_chunks": [],
+  "token_limit_verified": true,
+  "chunking": {
+    "method": "whole_units_same_page_phase_subsection",
+    "overlap_units": 0,
+    "measure": "exact_tokenizer",
+    "limit": 350,
+    "tokenizer_name": "intfloat/multilingual-e5-small",
+    "tokenizer_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "prefix_counted": "passage: ",
+    "special_tokens_counted": true,
+    "long_unit_policy": "keep_and_flag_never_truncate",
+    "tokenizer_snapshot": {
+      "model_id": "intfloat/multilingual-e5-small",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "files_sha256": {
+        "sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+        "tokenizer_config.json": "dbdcd9767f0481fd8fd8cd6bce3e73dae7f5c44ce22ae1fde00a66498e71b454",
+        "tokenizer.json": "cd98e5698b201ba914efb8c18b6709fa8735ab71dcad8d2b431e52e8bf68d932",
+        "special_tokens_map.json": "38d989b0fdad0fec0c67c14b1f3c8b68184022cf6d4adc5444526ced8653f738"
+      },
+      "license_as_model_card": "MIT",
+      "model_card": "https://huggingface.co/intfloat/multilingual-e5-small",
+      "contains_model_weights": false
+    },
+    "tokenizer_versions": {
+      "transformers": "4.57.6",
+      "tokenizers": "0.22.2"
+    },
+    "tokenizer_fingerprint": "1e447fc80036acf09f1e3c8ef7d9cccedb5b0d36edde583aa3de43ae4788912e"
+  },
+  "corpus_version": "bnpb-c6091b1006734c74"
+}
