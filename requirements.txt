@@ -1,4 +1,4 @@
--r requirements.txt
+PyMuPDF==1.26.6
 transformers==4.57.6
 tokenizers==0.22.2
 sentencepiece==0.2.3
