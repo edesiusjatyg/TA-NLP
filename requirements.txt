@@ -5,3 +5,7 @@ sentencepiece==0.2.3
 torch>=2.6,<3
 numpy>=1.26,<3
 requests>=2.32,<3
+nltk==3.10.4
+scikit-learn==1.9.1
+Sastrawi==1.0.1
+pytest==9.2.0
